@@ -1,0 +1,30 @@
+{
+    "middleware": {
+        "errorPages": {
+            "404": "errors/404",
+            "500": "errors/500",
+            "503": "errors/503"
+        }
+//      "appsec": {
+//        "csrf": true,
+//        "csp": false,
+//        "p3p": false,
+//        "xframe": "SAMEORIGIN"
+//      },
+//
+//      "compiler": {
+//          "dust": "templates",
+//          "less": "css"
+//      },
+//
+//      "session": {
+//          "module": "memory",
+//          "secret": "a29b52a4f19d20a977ee29fd48aa1082d64b7d7c"
+//      },
+//
+//      "static": {
+//          "srcRoot": "path:./public",
+//          "rootPath": "path:./.build"
+//      }
+    }
+}
